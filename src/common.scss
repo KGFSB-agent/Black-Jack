@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  height: 100vh;
+  cursor: default;
+  background-color: #230000;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "DejaVu Sans", sans-serif;
+  box-sizing: border-box;
+  &::-moz-focus-inner {
+    border: none;
+  }
+}
